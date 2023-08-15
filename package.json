@@ -1,5 +1,6 @@
 {
   "name": "netflix-clone",
+  "homepage": "https://iam-anurag-bhardwaj.github.io/netflix",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
