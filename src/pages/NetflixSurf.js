@@ -11,9 +11,7 @@ const NetflixSurf = () => {
 
       <Banner />
 
-      <Row title="Trending Now" 
-      fetchUrl={api.fetchTrending} 
-      isLargeRow />
+      <Row title="Trending Now" fetchUrl={api.fetchTrending} isLargeRow />
       <Row title="Top Rated" fetchUrl={api.fetchTopRated} />
       <Row title="Action Movies" fetchUrl={api.fetchActionMovies} />
       <Row title="Comedy Movies" fetchUrl={api.fetchComedyMovies} />

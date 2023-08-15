@@ -70,7 +70,7 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 9rem;
+  margin-top: 7rem;
 }
 
 .showcase-content h1 {
@@ -125,7 +125,7 @@ img {
 
 @media (max-width: 960px) {
   .showcase {
-    height: 70vh;
+    height: 80vh;
   }
 
   .showcase-top img {
@@ -172,8 +172,38 @@ img {
   }
 }
 
-@media (max-height: 600px) {
+@media (max-width: 500px) {
+  .showcase {
+    height: 60vh;
+  }
+
+  .showcase-top img {
+    width: 130px;
+    margin-left: 0.7rem;
+  }
+
   .showcase-content {
-    margin-top: 3rem;
+    margin-top: 3em;
+  }
+
+  .showcase-content h1 {
+    margin-bottom: 1.4rem;
+  }
+
+  .showcase-content p {
+    margin-bottom: 1.2rem;
+  }
+  .btn-x1 {
+    padding: 1rem 1.2rem;
+    font-size: 1.1rem;
+  }
+
+  .showcase-top .btn-rounded {
+    padding: 0.3rem 1.1rem;
+    margin-left: 2rem;
+  }
+
+  .fas {
+    margin-left: 1rem;
   }
 }

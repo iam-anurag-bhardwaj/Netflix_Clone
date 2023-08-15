@@ -138,7 +138,7 @@ const Tabs = ({ activeTabName, onClickTab }) => {
               <table className="table">
                 <thead>
                   <tr>
-                     <th></th>
+                    <th></th>
                     <th>Basis</th>
                     <th>Standard</th>
                     <th>Premium</th>
@@ -147,87 +147,87 @@ const Tabs = ({ activeTabName, onClickTab }) => {
                 <tbody>
                   <tr>
                     <td>Monthly price after free month end on [Date]</td>
-                    <td>₹ 199</td>
-                    <td>₹ 499</td>
-                    <td>₹ 649</td>
+                    <td data-lable="Basis" >₹ 199</td>
+                    <td data-lable="Standard">₹ 499</td>
+                    <td data-lable="Premium">₹ 649</td>
                   </tr>
                   <tr>
-                     <td>HD Available</td>
-                     <td>
-                        <i className="fas fa-times"></i>
-                     </td>
-                     <td>
-                        <i className="fas fa-check"></i>
-                     </td>
-                     <td>
-                        <i className="fas fa-check"></i>
-                     </td>
+                    <td> HD Available</td>
+                    <td data-lable="Basis">
+                      <i className="fas fa-times"></i>
+                    </td>
+                    <td data-lable="Standard">
+                      <i className="fas fa-check"></i>
+                    </td>
+                    <td data-lable="Premium">
+                      <i className="fas fa-check"></i>
+                    </td>
                   </tr>
                   <tr>
-                     <td>Ultra HD Available</td>
-                     <td>
-                        <i className="fas fa-times"></i>
-                     </td>
-                     <td>
-                        <i className="fas fa-times"></i>
-                     </td>
-                     <td>
-                        <i className="fas fa-check"></i>
-                     </td>
+                    <td>Ultra HD Available</td>
+                    <td data-lable="Basis">
+                      <i className="fas fa-times"></i>
+                    </td>
+                    <td data-lable="Standard">
+                      <i className="fas fa-times"></i>
+                    </td>
+                    <td data-lable="Premium">
+                      <i className="fas fa-check"></i>
+                    </td>
                   </tr>
                   <tr>
-                     <td>Screens you can Watch on at the same time</td>
-                     <td>1</td>
-                     <td>2</td>
-                     <td>4</td>
+                    <td>Screens you can Watch on at the same time</td>
+                    <td data-lable="Basis">1</td>
+                    <td data-lable="Standard">2</td>
+                    <td data-lable="Premium">4</td>
                   </tr>
                   <tr>
-                     <td>Watch on your Laptop, TV, Phone and Tablets</td>
-                     <td>
-                        <i className="fas fa-check"></i>
-                     </td>
-                     <td>
-                        <i className="fas fa-check"></i>
-                     </td>
-                     <td>
-                        <i className="fas fa-check"></i>
-                     </td>
+                    <td>Watch on your Laptop, TV, Phone and Tablets</td>
+                    <td data-lable="Basis">
+                      <i className="fas fa-check"></i>
+                    </td>
+                    <td data-lable="Standard">
+                      <i className="fas fa-check"></i>
+                    </td>
+                    <td data-lable="Premium">
+                      <i data-lable="Premium" className="fas fa-check"></i>
+                    </td>
                   </tr>
                   <tr>
-                     <td>Unlimited movies and TV shows</td>
-                     <td>
-                        <i className="fas fa-check"></i>
-                     </td>
-                     <td>
-                        <i className="fas fa-check"></i>
-                     </td>
-                     <td>
-                        <i className="fas fa-check"></i>
-                     </td>
+                    <td>Unlimited movies and TV shows</td>
+                    <td data-lable="Basis">
+                      <i className="fas fa-check"></i>
+                    </td>
+                    <td data-lable="Standard">
+                      <i className="fas fa-check"></i>
+                    </td>
+                    <td data-lable="Premium">
+                      <i className="fas fa-check"></i>
+                    </td>
                   </tr>
                   <tr>
-                     <td>Cancle Anytime</td>
-                     <td>
-                        <i className="fas fa-check"></i>
-                     </td>
-                     <td>
-                        <i className="fas fa-check"></i>
-                     </td>
-                     <td>
-                        <i className="fas fa-check"></i>
-                     </td>
+                    <td>Cancle Anytime</td>
+                    <td data-lable="Basis">
+                      <i className="fas fa-check"></i>
+                    </td>
+                    <td data-lable="Standard">
+                      <i className="fas fa-check"></i>
+                    </td>
+                    <td data-lable="Premium">
+                      <i className="fas fa-check"></i>
+                    </td>
                   </tr>
                   <tr>
-                     <td>First Month Free</td>
-                     <td>
-                        <i className="fas fa-check"></i>
-                     </td>
-                     <td>
-                        <i className="fas fa-check"></i>
-                     </td>
-                     <td>
-                        <i className="fas fa-check"></i>
-                     </td>
+                    <td>First Month Free</td>
+                    <td data-lable="Basis">
+                      <i className="fas fa-check"></i>
+                    </td>
+                    <td data-lable="Standard">
+                      <i className="fas fa-check"></i>
+                    </td>
+                    <td data-lable="Premium">
+                      <i className="fas fa-check"></i>
+                    </td>
                   </tr>
                 </tbody>
               </table>

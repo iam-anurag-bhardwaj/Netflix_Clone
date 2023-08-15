@@ -25,7 +25,7 @@ ul {
  .footer .footer-cols {
    display: grid;
    grid-template-columns: repeat(4, 1fr);
-   grid-gap: 2rem;
+   grid-gap: 1rem;
  }
  
  .footer li {
@@ -45,5 +45,6 @@ ul {
  @media (max-width: 960px) {
    .footer .footer-cols {
      grid-template-columns: repeat(2, 1fr);
+     margin-left: -40px;
    }
  }
